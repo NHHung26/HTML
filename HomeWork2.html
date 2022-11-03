@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STyle>
+        body{
+            background-color: yellow;
+        }
+        .dang-ki{
+            background-color: aquamarine;
+            color: blue;
+        }
+        .name, .date, .gt, .dt, .clss, .em{
+            color: blue;
+        }
+        .ho-ten {
+            margin-left: 30px;
+        }
+        .ns{
+            margin-left: 27px;
+        }
+        .ngay-sinh{
+            margin-top: 10px;
+        }
+        .gioi-tinh{
+            margin-left: 30px;
+            color: blue;
+        }
+        .gender{
+            margin-top: 10px;
+        }
+        .dia-chi{
+            display: flex;
+                justify-content: flex-start;
+            margin-top: 10px;
+        }
+        .nhap{
+            margin-left: 50px;
+        }
+        .lua-chon{
+            margin-left: 66px;
+        }
+        .lop, .mail,.gender, .ngay-sinh, .sdt
+        {
+            margin-top: 10px;
+        }
+        .email{
+            margin-left: 55px;
+        }
+        .sdtt{
+            margin-left: 26px;
+        }
+        .btm{
+            margin-top: 20px;
+            margin-left: 95px;
+            
+        }
+    </STyle>
+</head>
+<body>
+    <div class="dang-ki">
+        <h3>ĐĂNG KÝ HỌC VIÊN</h3>
+    </div>
+    <form action="">    
+       <span class="name">Họ và tên</span>
+       <span class="ho-ten"><input type="text" name="" id="" size="30px"></span>
+      <div class="ngay-sinh">
+        <span class="date">Ngày sinh</span>
+        <span class="ns"><input type="text" name="" id="" size="15px"></span>
+      </div>
+      <div class="gender">
+        <span class="gt">Giới tính</span>
+        <span class="gioi-tinh">
+            <input type="radio" name="gender" >Nam
+            <input  type="radio" name="gender" >Nữ
+        </span>
+      </div>
+      <div class="dia-chi">
+        <span class="dt">Địa chỉ</span>
+        <span class="nhap"><textarea name="" id="" cols="30" rows="5"></textarea></span>
+      </div>
+      <div class="lop">
+        <span class="clss">Lớp</span>
+        <span class="lua-chon">
+            <select name="chon-lop" id="">
+                <option value="">--Chọn lớp--</option>
+                <option value="">--Nodejs</option>
+                <option value="">--HTML--</option>
+                <option value="">--CSS--</option>
+            </select>
+        </span>
+      </div>
+      <div class="mail">
+        <span class="em">Email</span>
+        <span class="email"><input type="mail"></span>
+      </div>
+      <div class="sdt">
+        <span class="dt">Điện thoại</span>
+        <span class="sdtt"><input type="number"></span>
+      </div>
+      <div class="btm">
+        <span class="btn-dk"><button>Đăng KÍ</button></span>
+        <span class="btn-nl"><button>Nhập LạiX</button></span>
+      </div>
+    </form>
+</body>
+</html>
